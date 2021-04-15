@@ -11,6 +11,10 @@ namespace GroupTest
         
         static void Main(string[] args)
         {
+            CreditCard CreditCard = new CreditCard { CVV = 300, Number = "2692 2985 8258 9235" };
+
+            Money money = new Money();
+            money.Balance = 500;
             BusinessCard businessCard = new BusinessCard();
 
             businessCard.Owner = "John"; 
