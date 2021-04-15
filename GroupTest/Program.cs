@@ -8,8 +8,14 @@ namespace GroupTest
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
+            BusinessCard businessCard = new BusinessCard();
+
+            businessCard.Owner = "John"; 
+            Console.WriteLine($"Owner of card: {businessCard.Owner}"); //hello world
+
         }
     }
 }
