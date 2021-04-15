@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace GroupTest
 {
-    class Program
+    public class Money
     {
-        static void Main(string[] args)
-        {
-            Money money = new Money();
-            money.Balance = 500;
-        }
+        public decimal Balance { get; set; }
     }
 }
